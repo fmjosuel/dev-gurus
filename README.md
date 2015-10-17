@@ -3,7 +3,7 @@ We got this people!
 
 AUTHORS
 
-***Ciara***
+***Cierra***
 
 ***Devon***
 
