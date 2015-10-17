@@ -3,6 +3,6 @@ We got this people!
 
 AUTHORS
 #Devon
-#Franck
+#Franck (github username: nijfranck)
 #Imani
 #Josuel
