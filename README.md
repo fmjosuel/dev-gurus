@@ -2,7 +2,7 @@
 We got this people!
 
 AUTHORS
-**Devon
-**Franck
-**Imani
-**Josuel
+*Devon
+*Franck
+*Imani
+*Josuel
