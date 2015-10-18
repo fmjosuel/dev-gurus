@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2498f139-c2e1-4902-b792-84f23923272d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Josuel\Documents\GitHub\dev-gurus\AppEngine\HMTL &amp; CSS\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Josuel\Documents\GitHub\dev-gurus\AppEngine\HMTL &amp; CSS\home.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Josuel\Documents\GitHub\dev-gurus\AppEngine\HMTL &amp; CSS\home.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppEngine/HMTL&amp;CSS/home.css" afterPath="$PROJECT_DIR$/AppEngine/HMTL&amp;CSS/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppEngine/HMTL&amp;CSS/home.html" afterPath="$PROJECT_DIR$/AppEngine/HMTL&amp;CSS/home.html" />
     </list>
     <ignored path="dev-gurus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,6 +48,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -176,7 +182,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
