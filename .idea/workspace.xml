@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2498f139-c2e1-4902-b792-84f23923272d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppEngine/HMTL&amp;CSS/home.css" afterPath="$PROJECT_DIR$/AppEngine/HMTL&amp;CSS/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppEngine/HMTL&amp;CSS/home.html" afterPath="$PROJECT_DIR$/AppEngine/HMTL&amp;CSS/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobmatching/index.html" afterPath="$PROJECT_DIR$/jobmatching/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobmatching/matching.html" afterPath="$PROJECT_DIR$/jobmatching/matching.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev-gurus.iws" />
     <ignored path=".idea/workspace.xml" />
