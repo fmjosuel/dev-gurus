@@ -1,0 +1,28 @@
+application: helloworld
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: /stylesheet
+  static_dir: stylesheet
+
+- url: *\.(gif|png|jpg))$
+  static_files: /\1
+  upload: *\.(gif|png|jpg)$
+
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+- name: jinja2
+  version: latest
