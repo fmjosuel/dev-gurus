@@ -682,4 +682,8 @@ body {
 .results{
     font-color: white;
     font-size: 4.3rem;
+    padding-left: 450px;
+}
+.links{
+    font-size: 2.8rem;
 }

@@ -147,7 +147,7 @@ class MainPage(webapp2.RequestHandler):
                 chief_count+=1
         results = {'Animator': animator_count, 'Banker': banker_count, 'Doctor': doctor_count, 'Software': software_count,
                    'Designer': designer_count, 'Journalist': journalist_count, 'Photographer': photographer_count,
-                   'Chief': chief_count}
+                   'Chef': chief_count}
         animator_perc = animator_count *100/len_choice
         banker_perc = banker_count * 100 /len_choice
         software_perc =  software_count*100/len_choice
@@ -160,7 +160,7 @@ class MainPage(webapp2.RequestHandler):
 
         result_perc = {'Animator': animator_perc, 'Banker': banker_perc, 'Doctor': doctor_perc, 'Software': software_perc,
                    'Designer': designer_perc, 'Journalist': journalist_perc, 'Photographer': photographer_perc,
-                   'Chief': chief_perc}
+                   'Chef': chief_perc}
         sorted_results = sorted(results.items(), key=operator.itemgetter(1))
         sorted_results = sorted_results[::-1]
         '''
@@ -177,6 +177,37 @@ class MainPage(webapp2.RequestHandler):
         template = JINJA_ENVIRONMENT.get_template('matching.html')
         self.response.write(template.render(template_values))
 
+
+class SoftwareHandler(webapp2.RequestHandler):
+    def get(self):
+        self.redirect("http://www.collegequest.com/how-to-become-a-software-engineer.aspx")
+class AnimatorHandler(webapp2.RequestHandler):
+    def get(self):
+        self.redirect("http://study.com/how_to_become_an_animator.html")
+class BankerHandler(webapp2.RequestHandler):
+    def get(self):
+        self.redirect("http://study.com/articles/How_to_Be_a_Banker_Education_and_Career_Roadmap.html")
+class DesignerHandler(webapp2.RequestHandler):
+    def get(self):
+        self.redirect("https://www.asid.org/content/becoming-interior-designer#.ViOKQXUVhBc")
+class JournalistHandler(webapp2.RequestHandler):
+    def get(self):
+        self.redirect("http://work.chron.com/requirements-necessary-become-journalist-12514.html")
+class PhotographerHandler(webapp2.RequestHandler):
+    def get(self):
+        self.redirect("http://www.digitalcameraworld.com/2015/02/02/become-professional-photographer/")
+class ChiefHandler(webapp2.RequestHandler):
+    def get(self):
+        self.redirect("http://study.com/how_to_become_a_chef.html")
+
+
 app = webapp2.WSGIApplication([
-    ('/', MainPage)
+    ('/', MainPage),
+    ('/Software', SoftwareHandler),
+    ('/Animator', AnimatorHandler),
+    ('/Banker', BankerHandler),
+    ('/Designer', DesignerHandler),
+    ('/Journalist', JournalistHandler),
+    ('/Photographer', PhotographerHandler),
+    ('/Chef', ChiefHandler)
 ], debug=True)
