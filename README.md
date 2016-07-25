@@ -7,7 +7,7 @@ AUTHORS
 
 ***Devon***
 
-***Franck*** (github username: francknij)
+***Franck*** (github username: nijfranck)
 
 ***Imani***
 
